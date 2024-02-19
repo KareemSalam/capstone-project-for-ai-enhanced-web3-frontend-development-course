@@ -4,52 +4,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Token Minter dApp</title>
+
+    <!-- Step 1: Include Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="custom.css" rel="stylesheet">
 </head>
 <body>
-    <!-- Header Section: Contains the title of the dApp and navigation links -->
-    <header>
-        <h1>Welcome to our Token Minter dApp</h1>
+    <!-- Header Section -->
+    <header class="container-fluid bg-dark text-white py-3">
+        <!-- Title -->
+        <h1 class="text-center">Token Minter dApp</h1>
+        <!-- Navigation Menu -->
         <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#mint">Mint Tokens</a></li>
-                <li><a href="#about">About</a></li>
+            <ul class="nav justify-content-center">
+                <li class="nav-item"><a class="nav-link text-white" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#mint">Mint Tokens</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#about">About</a></li>
             </ul>
         </nav>
     </header>
     
     <!-- Main Content Section -->
-    <main>
-        <!-- Article Section: Provides an introduction to token minting -->
+    <main class="container mt-5">
+        <!-- Article Section: Introduction to Token Minting -->
         <article id="home">
-            <h2>Introduction to Token Minting</h2>
+            <h2 class="mb-3">Introduction to Token Minting</h2>
             <p>This dApp allows users to mint their own tokens on the blockchain.</p>
         </article>
         
-        <!-- Mint Section: Allows users to mint tokens by providing email and token amount -->
-        <section id="mint">
-            <h2>Mint Your Tokens</h2>
-            <form action="javascript:void(0)">
-                <label for="email">Enter your email:</label>
-                <input type="email" id="email" placeholder="Enter your email">
-                <br>
-                <label for="tokenAmount">Token amount:</label>
-                <input type="number" id="tokenAmount" placeholder="Token amount">
-                <br>
-                <button type="submit">Mint</button>
+        <!-- Mint Section: Form for minting tokens -->
+        <section id="mint" class="mt-5">
+            <h2 class="mb-3">Mint Your Tokens</h2>
+            <form>
+                <!-- Email Input -->
+                <div class="mb-3">
+                    <label for="email" class="form-label">Enter your email:</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                </div>
+                <!-- Token Amount Input -->
+                <div class="mb-3">
+                    <label for="tokenAmount" class="form-label">Token amount:</label>
+                    <input type="number" class="form-control" id="tokenAmount" placeholder="Token amount">
+                </div>
+                <!-- Mint Button -->
+                <button type="submit" class="btn btn-primary">Mint</button>
             </form>
         </section>
         
-        <!-- Aside Section: Provides additional information or links related to blockchain technology -->
-        <aside>
-            <h3>Learn More:</h3>
+        <!-- Aside Section: Additional information about blockchain technology -->
+        <aside class="mt-5">
+            <h3 class="mb-3">Learn More:</h3>
             <p>Explore more about blockchain technology.</p>
         </aside>
     </main>
     
-    <!-- Footer Section: Contains contact information -->
-    <footer>
-        <p>Contact us at <a href="mailto:hello@dProgrammingUniversity.com" target="_blank">hello@dProgrammingUniversity.com</a></p>
+    <!-- Footer Section: Contact information -->
+    <footer class="container-fluid bg-dark text-white py-3 mt-5">
+        <p class="text-center">Contact us at <a href="mailto:hello@dProgrammingUniversity.com" class="text-white">hello@dProgrammingUniversity.com</a></p>
     </footer>
 </body>
 </html>
