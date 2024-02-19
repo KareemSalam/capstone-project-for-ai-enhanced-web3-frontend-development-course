@@ -1,0 +1,49 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header styling */
+header {
+    background-color: #f8f9fa; /* Light gray background */
+    padding: 15px; /* Add padding for spacing */
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Vertically center content */
+    justify-content: space-between; /* Space items evenly */
+}
+
+/* Logo (h1) styling */
+header h1 {
+    margin: 0; /* Remove default margin */
+}
+
+/* Navigation menu styling */
+nav ul {
+    list-style: none; /* Remove default list styling */
+    display: flex; /* Use flexbox for layout */
+}
+
+nav li {
+    margin-right: 20px; /* Add margin between menu items */
+}
+
+nav a {
+    text-decoration: none; /* Remove default underline */
+    color: #ffffff; /* White text color */
+    transition: color 0.3s ease; /* Smooth color transition */
+}
+
+nav a:hover {
+    color: #138496 !important; /* Hover color for links */
+}
+
+/* Footer styling */
+footer {
+    background-color: #343a40; /* Dark gray background */
+    color: #ffffff; /* White text color */
+    padding: 15px; /* Add padding for spacing */
+    text-align: center; /* Center align text */
+}
+
