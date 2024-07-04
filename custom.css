@@ -47,3 +47,15 @@ footer {
     text-align: center; /* Center align text */
 }
 
+/* Main content and crypto prices layout */
+.container .row {
+    display: flex;
+}
+
+.col-lg-8 {
+    flex: 0 0 70%; /* 70% width for main content */
+}
+
+.col-lg-4 {
+    flex: 0 0 30%; /* 30% width for crypto prices */
+}
