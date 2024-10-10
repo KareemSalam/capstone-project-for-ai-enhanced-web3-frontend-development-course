@@ -27,3 +27,19 @@ SCREENSHOTS OF SERVER, FRONTEND ANND WORKPLACE
 
 
 ![VsCode Workspace](media/images/workspace(graphql%20_project).png)
+
+
+
+SECTION 5 TYPESCRIPT
+-In this sections i learnt how to use typescript. I learnt its syntax, operations, functions classes and constructors. I also leant how to convert javascript into typescript in my dApp which i followed along in the lesson and also implemented in my project. 
+
+- The challenges in this section were few, it was mainly learning how to follow the steps needed to implement typescript in my project using the terminal commands and editing the package.json and tsconfig.json. But i was able to overcome this by following along with the lessons as well as asking AI for more explanations on the concept as well as assistance in converting my javascript to typescript.
+
+SCREENSHOTS OF TYPESCRIPT WATCH/COMPILE TERMINAL, SERVER, FRONTEND ANND WORKPLACE
+![Typescript watch/Compile Terminal](media/images/ts_compile_screenshot.png)
+![Apollo Server](media/images/apollo_server(ts).png)
+
+![dApp Frontend](media/images/frontend(ts).png)
+
+
+![VsCode Workspace](media/images/workspace(typescript).png)
